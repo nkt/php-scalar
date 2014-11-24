@@ -1,0 +1,25 @@
+{
+  "name": "nkt/scalar",
+  "description": "Methods for PHP scalars",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikita Gusakov",
+      "email": "dev@nkt.me"
+    }
+  ],
+  "require": {
+    "php": "~5.3",
+    "ext-scalar_objects": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/register.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nkt\\Test\\": "tests"
+    }
+  }
+}
