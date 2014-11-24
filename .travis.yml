@@ -1,14 +1,15 @@
 language: php
 
 php:
-  - 5.3
   - 5.4
   - 5.5
   - 5.6
 
 install:
+  - phpenv rehash
   - git clone git://github.com/nikic/scalar_objects.git
   - (cd scalar_objects && phpize && ./configure && make && sudo make install)
+  - echo "extension=scalar_objects.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
 before_script:
   - composer install
