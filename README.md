@@ -22,6 +22,15 @@ sudo make install
 
 Than add `nkt/scalar` into your `composer.json`. That's it!
 
+IDE
+---
+
+PHPStorm/IDEA recognize scalars as classes (int, string, etc.)
+so I've added stub, that provide simple completion for this library.
+Unfortunately `array` is a keyword in grammars, so there is no completion for it.
+
+![It's awesome!](docs/idea-screenshoot.png)
+
 License
 -------
 
