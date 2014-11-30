@@ -20,7 +20,7 @@ make
 sudo make install
 ```
 
-Than add `nkt/scalar` into your `composer.json`. That's it!
+Then add `nkt/scalar` into your `composer.json`. That's it!
 
 IDE
 ---
