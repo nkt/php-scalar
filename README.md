@@ -3,7 +3,7 @@ PHP scalar
 
 [![Build Status](https://travis-ci.org/nkt/php-scalar.svg?branch=master)](https://travis-ci.org/nkt/php-scalar)
 
-Methods for PHP scalars.
+> Methods for PHP scalars.
 
 Installation
 ------------
